@@ -1,0 +1,180 @@
+.attribution {
+font-family: 'Plus Jakarta Sans', sans-serif; 
+    margin-top: 2rem;
+    font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+html, body {
+    height:100%;
+}
+
+span{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+ /* ******************* */
+
+ body{
+    background-color: hsl(210, 60%, 98%);
+    }
+
+main{
+    margin-top: 4rem;
+}
+
+ .contenedor{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 80rem;
+ }
+ @media (max-width:800px){
+    main{
+        margin-top: 0rem;
+    }
+
+    body{
+        background-color: hsl(0, 0%, 100%);;
+    }
+     .contenedor{
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0px;
+    }
+ }
+.opciones{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.notif{
+    display: flex;
+}
+
+.notif_titulo{
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+.notif_numero{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: hsl(219, 85%, 26%);
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    margin-left: 1rem;
+}
+
+.der{
+    width: 100%;
+    text-align: right;
+    color:hsl(219, 12%, 42%) ;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.der:hover{
+
+    color:hsl(219, 85%, 26%);
+
+}
+.nombre_texto{
+    font-size: 1.6rem;
+}
+.post,.post2{
+    display: grid;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.post{
+    grid-template-columns: 10% 90%;
+}
+.post2{
+    grid-template-columns: 10% 80% 10%;
+}
+
+ @media (max-width:500px){
+    .post{
+        grid-template-columns: 20% 80%;
+    }
+    .post2{
+        grid-template-columns: 20% 70% 10%;
+    }
+ }
+
+.fotoperfil img{
+    width: 4rem;
+}
+.gris{
+        background-color: hsl(210, 60%, 98%);
+}
+.imagender{
+    width: 100%;
+    text-align: right;
+}
+.imagender img{
+    width: 4rem;
+    border: 2px solid white;
+}
+
+.imagender img:hover{
+    border: 2px solid hsl(205, 33%, 90%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nombre{
+    font-weight: 800;
+    cursor: pointer;
+}
+.nombre:hover{
+    color: hsl(219, 85%, 26%);
+}
+.nombregrupo{
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+
+.nombregrupo:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.joi{
+    color: hsl(219, 12%, 42%);
+
+}
+
+.tiempo{
+    color: hsl(219, 14%, 63%);
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.cajatexto{
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid hsl(205, 33%, 90%);
+    font-size: 1.6rem;
+    cursor: pointer;
+    color:hsl(219, 12%, 42%) ;
+}
+.cajatexto:hover{
+    background-color: hsl(205, 33%, 90%);
+}
+.punto img{
+    width: 1rem;
+    margin-left: 0.2rem;
+}
